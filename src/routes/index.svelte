@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Header/>
+<h1>Hello, I'm Ben</h1>
+<h2>I'm a massage therapist</h2>
+<Body/>
+<Calendar/>
+
+<script>
+    import Calendar from '../components/calendar.svelte'
+    import Body from '../components/body.svelte'
+    import Header from '../components/header.svelte'
+</script>
+
+<style>
+
+</style>
